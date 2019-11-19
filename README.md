@@ -64,7 +64,7 @@ fun nas ls nas:///mnt/auto/
 
 #### 5. fun deploy 部署函数到指定的region
 
-修改 template.yml LogConfig 中的 Project, 任意取一个不会重复的名字即可， 然后执行
+修改 template.yml LogConfig 中的 Project, 任意取一个不会重复的名字即可，有两处需要同时一起修改，然后执行
 
 ```bash
 fun deploy
